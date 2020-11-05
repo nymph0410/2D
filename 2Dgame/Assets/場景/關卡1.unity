@@ -526,6 +526,7 @@ GameObject:
   - component: {fileID: 578835426}
   - component: {fileID: 578835428}
   - component: {fileID: 578835427}
+  - component: {fileID: 578835429}
   m_Layer: 5
   m_Name: "\u6642\u9593"
   m_TagString: Untagged
@@ -584,7 +585,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6642\u9593\uFF1A\uFF10"
+  m_Text: "\u6642\u9593\uFF1A0"
 --- !u!222 &578835428
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -593,6 +594,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578835425}
   m_CullTransparentMesh: 0
+--- !u!114 &578835429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578835425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &635707588
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,7 +2576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 1, y: -1}
+  m_EffectDistance: {x: 1, y: -3}
   m_UseGraphicAlpha: 1
 --- !u!114 &1730787651
 MonoBehaviour:
